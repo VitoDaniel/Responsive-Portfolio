@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document's character set. -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viktor Daniyelyan | Portfolio</title>
+
+    <!-- Linking CSS to our HTML. -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+   
+</head>
+<body>
+    <!-- Header of the page-->
+    <header>
+            <div class="hat">
+                <div class="name">
+                    <div class="logo">Viktor Daniyelyan</div>
+                </div>
+                <nav class="apc">
+                       <ul>
+                          <li><a href="index.html">About</a></li>
+                          <li><a class="border" href="portfolio.html" >Portfolio</a></li>
+                          <li><a href="#">Contact</a></li>
+                      </ul>
+                </nav>
+    
+            </div> <!--Closing div tag for our "hat". -->
+    </header>
+   
+    <div class="container">
+            <!--Main info.-->
+            <div class="main">
+                <h1 class="title_page">Contact</h1>
+                <!--That line-->
+                <hr>
+                <!--Create a form for contact-->
+                <form class="contact" action="action_page.php">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Smith">
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="example@gmail.com">
+
+                    <label for="message">Message</label>
+                    <textarea rows="10" cols="40" id="message" name="message"></textarea>
+
+                    <button  class="submit"   name="submit">Submit</button>
+
+                </form>
+            </div>    
+    </div>
+    <!--Copy sign-->
+    <footer class="footer">&copy;2018 Viktor Daniyelyan</footer>
+</body>
+
+</html>
